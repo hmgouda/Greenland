@@ -18,7 +18,7 @@ function Nav({ onQuote }) {
     <header className={"nav" + (solid ? " nav--solid" : "")}>
       <div className="wrap nav__inner">
         <a href="#top" className="nav__logo" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }} aria-label="Green Land Lawn Care & Landscaping home">
-          <img className="nav__logo-img" src="assets/logo-landscape.png" alt="Green Land Landscape & Maintenance" />
+          <img className="nav__logo-img" src="assets/logo-horizontal.png" alt="Green Land Lawn Care & Landscaping" />
         </a>
         <nav className="nav__links">
           {NAV.map((n) => (
@@ -84,7 +84,7 @@ function Hero({ onQuote }) {
 
         <div className="hero__media reveal in">
           <div className="hero__photo">
-            <img src="assets/gallery/1000026682.jpg" alt="Freshly mowed lawn with signature stripes" />
+            <img src="assets/gallery/owner-on-mower.jpg" alt="Green Land crew member on a stand-on mower" />
           </div>
         </div>
       </div>
