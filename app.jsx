@@ -109,7 +109,7 @@ function Footer({ onQuote }) {
       </div>
       <div className="wrap footer__grid">
         <div className="footer__brand">
-          <img className="footer__logo-img" src="assets/logo-mono-light.png" alt="Green Land Landscape & Maintenance" />
+          <img className="footer__logo-img" src="assets/logo-landscape.png" alt="Green Land Landscape & Maintenance" />
           <p className="serif footer__tag">Where skill meets soil.</p>
           <p className="footer__copy">Lawn care &amp; landscaping for the Greater Richmond area.</p>
         </div>
