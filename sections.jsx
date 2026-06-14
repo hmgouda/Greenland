@@ -63,7 +63,7 @@ function Hero({ onQuote }) {
           <div className="hero__eyebrow">
             <span className="eyebrow">Lawn Care &amp; Landscaping</span>
             <span className="hero__rule" />
-            <span className="eyebrow" style={{ color: "var(--ink-soft)" }}>Est. Greater Richmond</span>
+            <span className="eyebrow" style={{ color: "var(--ink-soft)" }}>Family Owned & Operated</span>
           </div>
           <h1 className="display">Where Skill<br />Meets <em>Soil</em></h1>
           <p className="hero__sub text-w">High-quality lawn care and landscaping from a crew that treats your property like a neighbor's — crisp stripes, healthy beds, and honest, friendly service.</p>
