@@ -41,8 +41,6 @@
 .hero__media{position:relative}
 .hero__photo{position:relative;border-radius:8px;overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:1/1}
 .hero__photo img{width:100%;height:100%;object-fit:cover}
-.hero__badge{position:absolute;left:-26px;bottom:36px;background:var(--paper);border-radius:8px;box-shadow:var(--shadow);padding:18px 22px;display:flex;align-items:center;gap:14px;max-width:230px}
-.hero__badge-txt{font-size:.92rem;font-weight:600;line-height:1.25;color:var(--ink-soft)}
 
 /* ---------------- MARQUEE ---------------- */
 .marquee{background:var(--forest);color:var(--paper);overflow:hidden;padding:18px 0;white-space:nowrap}
@@ -56,7 +54,6 @@
 .about__media{position:relative}
 .about__photo{width:100%;aspect-ratio:4/5;border-radius:6px;box-shadow:var(--shadow-lg);overflow:hidden;background:var(--paper-3) url('assets/gallery/1000042844.jpg') center/cover no-repeat;position:relative}
 .about__photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(22,36,27,0) 55%,rgba(22,36,27,.5))}
-.about__photo-ph{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:18px 22px;color:var(--paper);font-style:italic;font-size:1.05rem;opacity:.9}
 .about__caption{position:absolute;right:-18px;bottom:30px;background:var(--lime);color:var(--ink);padding:14px 20px;border-radius:6px;font-style:italic;font-size:1.15rem;max-width:230px;box-shadow:var(--shadow);line-height:1.2}
 .about__copy h2{margin:14px 0 24px}
 .about__copy p{color:var(--ink-soft);margin-bottom:18px;font-size:1.06rem}
@@ -230,7 +227,6 @@
   .footer__grid{grid-template-columns:1fr 1fr;gap:32px}
   .footer__cta{flex-direction:column;align-items:flex-start}
   .about__caption{right:8px}
-  .hero__badge{left:0}
   .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:90;gap:0;box-shadow:0 -8px 24px -10px rgba(0,0,0,.3)}
   .callbar a,.callbar button{flex:1;display:flex;align-items:center;justify-content:center;gap:.5em;font-family:var(--sans);font-weight:800;font-size:1.02rem;padding:16px 8px;padding-bottom:calc(16px + env(safe-area-inset-bottom))}
   .callbar__call{background:var(--lime);color:var(--ink)}

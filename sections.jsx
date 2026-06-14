@@ -86,10 +86,6 @@ function Hero({ onQuote }) {
           <div className="hero__photo">
             <img src="assets/gallery/1000026682.jpg" alt="Freshly mowed lawn with signature stripes" />
           </div>
-          <div className="hero__badge">
-            <span className="serif" style={{ fontSize: "2.6rem", lineHeight: 1, color: "var(--forest)" }}>9</span>
-            <span className="hero__badge-txt">services,<br />one trusted crew</span>
-          </div>
         </div>
       </div>
     </section>
@@ -117,9 +113,7 @@ function About() {
     <section id="about" className="about sec-pad">
       <div className="wrap about__grid">
         <div className="about__media reveal">
-          <div className="about__photo" id="about-owner-photo">
-            <span className="about__photo-ph serif">Owner on the mower</span>
-          </div>
+          <div className="about__photo" id="about-owner-photo"></div>
           <div className="about__caption serif">A neighbor, not just a contractor.</div>
         </div>
         <div className="about__copy reveal">
